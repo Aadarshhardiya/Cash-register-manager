@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0%;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    color: blue;
+    font-size:250%
+}
+
+.container{
+    display:block;
+    }
+
+.description{
+    display: block;
+    text-align: center;
+    font-size:x-large;
+}
+
+.input {
+    border-style:groove;
+    border-width: 2px;
+    width: 15rem;
+    height: 5vh;
+    
+}
+
+.input-label{
+    font-size: 140%;
+
+}
+
+
+.change-table{
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+    
+
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr{
+    min-width: 5rem;
+    border: 1px solid black;
+    margin: auto;
+    height:8vh;
+}
+
+td {
+    display:table-cell;
+    border: 1px solid black;
+    margin: auto;
+    width: 5rem;
+    padding: 1rem;
+}
+
+th{
+    text-align: center;
+    font-size: 110%;
+}
+
+#check-button {
+    width: 5rem;
+    height: 4vh;
+}
+
+caption{
+    font-size: x-large;
+    padding: 1.5rem;
+}
