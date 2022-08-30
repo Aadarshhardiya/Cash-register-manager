@@ -4,19 +4,22 @@
 }
 
 body{
-    background-color:linen;
+    background-color:thistle;
     margin:0%;
     text-align: center;
 }
 
 .heading {
     text-align: center;
-    color: blue;
-    font-size:250%
+    color:chocolate;
+    font-size:250%;
+    border-bottom: outset;
+    border-top: outset;
 }
 
 .container{
     display:block;
+    padding-bottom: 5rem;
     }
 
 .description{
@@ -85,12 +88,21 @@ caption{
 }
 
 footer p {
-    padding-top: 5rem;
+    padding-top:;
     color: red;
     font-size: large;
 }
 
+
 .list-item-inline{
-    display: inline;
     padding: 1rem;
+    display: inline;
+}
+
+footer{
+    border-top: inset;
+    border-color:chocolate;
+    padding-top:2rem;
+    background-color:burlywood;
+    padding-bottom: 1rem;
 }
