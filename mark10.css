@@ -4,6 +4,7 @@
 }
 
 body{
+    background-color:linen;
     margin:0%;
     text-align: center;
 }
@@ -55,14 +56,14 @@ tbody {
 
 tr{
     min-width: 5rem;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: auto;
     height:8vh;
 }
 
 td {
     display:table-cell;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: auto;
     width: 5rem;
     padding: 1rem;
@@ -81,4 +82,15 @@ th{
 caption{
     font-size: x-large;
     padding: 1.5rem;
+}
+
+footer p {
+    padding-top: 5rem;
+    color: red;
+    font-size: large;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
 }
