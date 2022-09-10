@@ -17,6 +17,7 @@ checkButton.addEventListener("click", function validateBillandCashAmount() {
 
             
         } else {
+            message.style.display = "block";
             showMessage("The cash provided should atleast be equal to the bill amount");
 
         }
