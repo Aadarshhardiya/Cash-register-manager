@@ -8,18 +8,18 @@ const availableNotes = [2000,500,100,20,10,5,1];
 
 checkButton.addEventListener("click", function validateBillandCashAmount() {
     hideMessage();
-    if (billAmount.value > 0) {
+    if (parseInt(billAmount.value) > 0) {
 
-        if (cashGiven.value > billAmount.value) {
-
+        if (parseInt(cashGiven.value) >= parseInt(billAmount.value)) {
+            console.log(cashGiven.value + 'if');
             const amountToBeReturned = Number(cashGiven.value) - Number(billAmount.value);
             calculateChange(amountToBeReturned); 
 
             
-        } else {
+        } else{
             message.style.display = "block";
             showMessage("The cash provided should atleast be equal to the bill amount");
-
+            console.log(cashGiven.value + 'else');
         }
 
     } else {
