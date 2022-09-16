@@ -11,7 +11,6 @@ checkButton.addEventListener("click", function validateBillandCashAmount() {
     if (parseInt(billAmount.value) > 0) {
 
         if (parseInt(cashGiven.value) >= parseInt(billAmount.value)) {
-            console.log(cashGiven.value + 'if');
             const amountToBeReturned = Number(cashGiven.value) - Number(billAmount.value);
             calculateChange(amountToBeReturned); 
 
@@ -19,7 +18,6 @@ checkButton.addEventListener("click", function validateBillandCashAmount() {
         } else{
             message.style.display = "block";
             showMessage("The cash provided should atleast be equal to the bill amount");
-            console.log(cashGiven.value + 'else');
         }
 
     } else {
